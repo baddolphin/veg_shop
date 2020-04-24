@@ -1,0 +1,7 @@
+PHONE_NUMBER = '+7 (805) 325-65-00'
+EMAIL = 'email@spb.ru'
+MEAT = 'MeatFood'
+POST_INFO = '203 Fake St. Mountain View, San Francisco, California, USA'
+EMAIL_INFO = 'info@yourdomain.com'
+PHONE_INFO = '+2 392 3929 210'
+FAR_FAR = 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.'

@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-31 14:08+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\templates\vegan_app\base.html:42
+msgid "delivery"
+msgstr "Доставка от 3-х дней и бесплатный возврат"
+
+#: .\templates\vegan_app\base.html:53
+msgid "Menu"
+msgstr "Меню"
+
+#: .\templates\vegan_app\base.html:57
+msgid "HomePage"
+msgstr "Домашняя страница"
+
+#: .\templates\vegan_app\base.html:59 .\templates\vegan_app\base.html:61
+#: .\templates\vegan_app\base.html:123
+msgid "Shop"
+msgstr "Магазин"
+
+#: .\templates\vegan_app\base.html:62
+msgid "Wishlist"
+msgstr "Корзина"
+
+#: .\templates\vegan_app\base.html:63
+msgid "Single Product"
+msgstr "Обзор продукта"
+
+#: .\templates\vegan_app\base.html:64
+msgid "Cart"
+msgstr "Корзина"
+
+#: .\templates\vegan_app\base.html:65
+msgid "Checkout"
+msgstr "Заказ"
+
+#: .\templates\vegan_app\base.html:68 .\templates\vegan_app\base.html:124
+msgid "About"
+msgstr "О нас"
+
+#: .\templates\vegan_app\base.html:69
+msgid "Blog"
+msgstr "Блог"
+
+#: .\templates\vegan_app\base.html:70 .\templates\vegan_app\base.html:126
+#: .\templates\vegan_app\base.html:142
+msgid "Contact"
+msgstr "Контакты"
+
+#: .\templates\vegan_app\base.html:84
+msgid "subscribe_news"
+msgstr "Подписывайтесь на наши новости"
+
+#: .\templates\vegan_app\base.html:85
+msgid "get_email"
+msgstr "Получайте оповещения о специальных предложениях и новинках"
+
+#: .\templates\vegan_app\base.html:90
+msgid "placeholder_email"
+msgstr "Введите email"
+
+#: .\templates\vegan_app\base.html:111 .\templates\vegan_app\index.html:142
+#: .\templates\vegan_app\index.html:386
+msgid "far_far"
+msgstr "Очень далеко за горами и дальше стран Vokalia и Consonantia"
+
+#: .\templates\vegan_app\base.html:121
+msgid "menu"
+msgstr "Меню"
+
+#: .\templates\vegan_app\base.html:125
+msgid "journal"
+msgstr "Журнал"
+
+#: .\templates\vegan_app\base.html:132
+msgid "help"
+msgstr "Помощь"
+
+#: .\templates\vegan_app\base.html:135
+#, fuzzy
+#| msgid "free_shipping"
+msgid "shipping"
+msgstr "Бесплатная доставка"
+
+#: .\templates\vegan_app\base.html:136
+msgid "returns"
+msgstr "Возврат и обмен"
+
+#: .\templates\vegan_app\base.html:137
+msgid "terms"
+msgstr "Условия"
+
+#: .\templates\vegan_app\base.html:138
+msgid "privacy"
+msgstr "Политика конфиденциальности"
+
+#: .\templates\vegan_app\base.html:141
+msgid "faq"
+msgstr "Часто задаваемы вопросы"
+
+#: .\templates\vegan_app\base.html:149
+msgid "have_questions"
+msgstr "Остались вопросы?"
+
+#: .\templates\vegan_app\index.html:14
+msgid "serve"
+msgstr "Мы работаем со свежими вегатарианскими фруктами"
+
+#: .\templates\vegan_app\index.html:15 .\templates\vegan_app\index.html:30
+#, fuzzy
+#| msgid "delivery"
+msgid "deliver_organic"
+msgstr "Доставляем свежие фрукты"
+
+#: .\templates\vegan_app\index.html:16 .\templates\vegan_app\index.html:31
+msgid "details"
+msgstr "Подробнее"
+
+#: .\templates\vegan_app\index.html:29
+msgid "fresh"
+msgstr "100% свежие &amp; Органические продукты"
+
+#: .\templates\vegan_app\index.html:49
+msgid "free_shipping"
+msgstr "Бесплатная доставка"
+
+#: .\templates\vegan_app\index.html:50
+msgid "over"
+msgstr "На заказ от 100$"
+
+#: .\templates\vegan_app\index.html:60
+msgid "always_fresh"
+msgstr "Всегда свежее"
+
+#: .\templates\vegan_app\index.html:61
+msgid "product_well"
+msgstr "Продукт хорошо упакован"
+
+#: .\templates\vegan_app\index.html:71
+msgid "super_quality"
+msgstr "Отличное качество"
+
+#: .\templates\vegan_app\index.html:72
+msgid "quality_products"
+msgstr "Качественный продукт"
+
+#: .\templates\vegan_app\index.html:82
+msgid "support"
+msgstr "Поддержка"
+
+#: .\templates\vegan_app\index.html:83
+msgid "24-7"
+msgstr "Поддержка 24/7"
+
+#: .\templates\vegan_app\index.html:99 .\templates\vegan_app\index.html:113
+msgid "vegetables"
+msgstr "Овощи"
+
+#: .\templates\vegan_app\index.html:100
+msgid "protect_health"
+msgstr "Заботимся о Вашем здоровье"
+
+#: .\templates\vegan_app\index.html:101
+msgid "shop_now"
+msgstr "Закажи сейчас"
+
+#: .\templates\vegan_app\index.html:108
+msgid "fruits"
+msgstr "Фрукты"
+
+#: .\templates\vegan_app\index.html:123
+msgid "juices"
+msgstr "Соки"
+
+#: .\templates\vegan_app\index.html:128
+msgid "dried"
+msgstr "Орехи"
+
+#: .\templates\vegan_app\index.html:140
+msgid "featured_products"
+msgstr "Рекомендуемые товары"
+
+#: .\templates\vegan_app\index.html:141
+msgid "our_products"
+msgstr "Наши продукты"
+
+#: .\templates\vegan_app\index.html:155
+msgid "bell_pepper"
+msgstr "Болгарский перец"
+
+#: .\templates\vegan_app\index.html:183
+msgid "strawberry"
+msgstr "Клубника"
+
+#: .\templates\vegan_app\index.html:211
+msgid "green_beans"
+msgstr "Горох"
+
+#: .\templates\vegan_app\index.html:239
+msgid "purple_cabbage"
+msgstr "Фиолетовая капуста"
+
+#: .\templates\vegan_app\index.html:270
+msgid "tomatoe"
+msgstr "Томаты"
+
+#: .\templates\vegan_app\index.html:298
+msgid "brocolli"
+msgstr "Броколли"
+
+#: .\templates\vegan_app\index.html:326
+msgid "carrots"
+msgstr "Марковка"
+
+#: .\templates\vegan_app\index.html:354
+msgid "fruit_juice"
+msgstr "Фруктовые соки"
+
+#: .\templates\vegan_app\index.html:384
+msgid "best_price"
+msgstr "Лучшая цена для Вас"
+
+#: .\templates\vegan_app\index.html:385
+msgid "deal_of_day"
+msgstr "Скидка дня"
+
+#: .\templates\vegan_app\index.html:387
+msgid "spinach"
+msgstr "Шпинат"
+
+#: .\templates\vegan_app\index.html:388
+msgid "now"
+msgstr "Только сегодня цена 5$"
+
+#: .\templates\vegan_app\index.html:404
+msgid "testimony"
+msgstr "Свидетельство"
+
+#: .\templates\vegan_app\index.html:405
+msgid "satisfied"
+msgstr "Наши довольные покупатели советуют"
+
+#: .\templates\vegan_app\index.html:406
+msgid "far_far_long"
+msgstr ""
+"Очень далеко за горами и дальше стран Vokalia и Consonantia, и бла бла бла"
+
+#: .\templates\vegan_app\index.html:420 .\templates\vegan_app\index.html:434
+#: .\templates\vegan_app\index.html:448 .\templates\vegan_app\index.html:462
+#: .\templates\vegan_app\index.html:476
+msgid "far_far_customer"
+msgstr "Очень далеко за горами и дальше стран Vokalia и Consonantia, и бла"
+
+#: .\templates\vegan_app\index.html:422
+msgid "marketing_manager"
+msgstr "Менеджер по маркетингу"
+
+#: .\templates\vegan_app\index.html:436
+msgid "interface_designer"
+msgstr "Дизайнер интерфейсов"
+
+#: .\templates\vegan_app\index.html:450
+msgid "UI_designer"
+msgstr "UI дизайнер"
+
+#: .\templates\vegan_app\index.html:464
+msgid "web_developer"
+msgstr "Web разработчик"
+
+#: .\templates\vegan_app\index.html:478
+msgid "system_analyst"
+msgstr "Системный аналитик"
