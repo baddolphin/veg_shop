@@ -22,39 +22,39 @@ class WishlistView(View):
 
     def get(self, request):
         return render(request, 'vegan_app/wishlist.html', {'phone_number': PHONE_NUMBER,
-                                                        'email': EMAIL,
-                                                        'meat': MEAT,
-                                                        'far_far': FAR_FAR,
-                                                        'post_info': POST_INFO,
-                                                        'phone_info': PHONE_INFO,
-                                                        'email_info': EMAIL_INFO,
-                                                        })
+                                                           'email': EMAIL,
+                                                           'meat': MEAT,
+                                                           'far_far': FAR_FAR,
+                                                           'post_info': POST_INFO,
+                                                           'phone_info': PHONE_INFO,
+                                                           'email_info': EMAIL_INFO,
+                                                           })
 
 
 class ProductSingleView(View):
 
     def get(self, request):
         return render(request, 'vegan_app/product-single.html', {'phone_number': PHONE_NUMBER,
-                                                        'email': EMAIL,
-                                                        'meat': MEAT,
-                                                        'far_far': FAR_FAR,
-                                                        'post_info': POST_INFO,
-                                                        'phone_info': PHONE_INFO,
-                                                        'email_info': EMAIL_INFO,
-                                                        })
+                                                                 'email': EMAIL,
+                                                                 'meat': MEAT,
+                                                                 'far_far': FAR_FAR,
+                                                                 'post_info': POST_INFO,
+                                                                 'phone_info': PHONE_INFO,
+                                                                 'email_info': EMAIL_INFO,
+                                                                 })
 
 
 class CheckoutView(View):
 
     def get(self, request):
         return render(request, 'vegan_app/checkout.html', {'phone_number': PHONE_NUMBER,
-                                                        'email': EMAIL,
-                                                        'meat': MEAT,
-                                                        'far_far': FAR_FAR,
-                                                        'post_info': POST_INFO,
-                                                        'phone_info': PHONE_INFO,
-                                                        'email_info': EMAIL_INFO,
-                                                        })
+                                                           'email': EMAIL,
+                                                           'meat': MEAT,
+                                                           'far_far': FAR_FAR,
+                                                           'post_info': POST_INFO,
+                                                           'phone_info': PHONE_INFO,
+                                                           'email_info': EMAIL_INFO,
+                                                           })
 
 
 class AboutView(View):
@@ -112,29 +112,29 @@ class BlogView(View):
              'body': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'},
         ]
         return render(request, 'vegan_app/blog.html', {
-                                                        'phone_number': PHONE_NUMBER,
-                                                        'email': EMAIL,
-                                                        'meat': MEAT,
-                                                        'far_far': FAR_FAR,
-                                                        'post_info': POST_INFO,
-                                                        'phone_info': PHONE_INFO,
-                                                        'email_info': EMAIL_INFO,
-                                                        'blogs': blogs,
-                                                        })
+            'phone_number': PHONE_NUMBER,
+            'email': EMAIL,
+            'meat': MEAT,
+            'far_far': FAR_FAR,
+            'post_info': POST_INFO,
+            'phone_info': PHONE_INFO,
+            'email_info': EMAIL_INFO,
+            'blogs': blogs,
+        })
 
 
 class ContactView(View):
 
     def get(self, request):
         return render(request, 'vegan_app/contact.html', {
-                                                            'phone_number': PHONE_NUMBER,
-                                                            'email': EMAIL,
-                                                            'meat': MEAT,
-                                                            'far_far': FAR_FAR,
-                                                            'post_info': POST_INFO,
-                                                            'phone_info': PHONE_INFO,
-                                                            'email_info': EMAIL_INFO,
-                                                        })
+            'phone_number': PHONE_NUMBER,
+            'email': EMAIL,
+            'meat': MEAT,
+            'far_far': FAR_FAR,
+            'post_info': POST_INFO,
+            'phone_info': PHONE_INFO,
+            'email_info': EMAIL_INFO,
+        })
 
 
 class CartView(View):
@@ -153,14 +153,14 @@ class CartView(View):
              'total': '$15.70'},
         ]
         return render(request, 'vegan_app/cart.html', {'phone_number': PHONE_NUMBER,
-                                                        'email': EMAIL,
-                                                        'meat': MEAT,
-                                                        'far_far': FAR_FAR,
-                                                        'post_info': POST_INFO,
-                                                        'phone_info': PHONE_INFO,
-                                                        'email_info': EMAIL_INFO,
-                                                        'carts': cart_list,
-                                                        })
+                                                       'email': EMAIL,
+                                                       'meat': MEAT,
+                                                       'far_far': FAR_FAR,
+                                                       'post_info': POST_INFO,
+                                                       'phone_info': PHONE_INFO,
+                                                       'email_info': EMAIL_INFO,
+                                                       'carts': cart_list,
+                                                       })
 
 
 class ShopView(View):
@@ -217,11 +217,11 @@ class ShopView(View):
         except:
             return redirect(reverse('shop'))
         return render(request, 'vegan_app/shop.html', {'phone_number': PHONE_NUMBER,
-                                                        'email': EMAIL,
-                                                        'meat': MEAT,
-                                                        'far_far': FAR_FAR,
-                                                        'post_info': POST_INFO,
-                                                        'phone_info': PHONE_INFO,
-                                                        'email_info': EMAIL_INFO,
-                                                        'products': products,
-                                                        })
+                                                       'email': EMAIL,
+                                                       'meat': MEAT,
+                                                       'far_far': FAR_FAR,
+                                                       'post_info': POST_INFO,
+                                                       'phone_info': PHONE_INFO,
+                                                       'email_info': EMAIL_INFO,
+                                                       'products': products,
+                                                       })
